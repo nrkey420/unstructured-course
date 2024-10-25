@@ -10,6 +10,7 @@ from unstructured_ingest.v2.processes.connectors.local import (
 )
 from unstructured_ingest.v2.processes.partitioner import PartitionerConfig
 
+
 if __name__ == "__main__":
     Pipeline.from_configs(
         context=ProcessorConfig(),
